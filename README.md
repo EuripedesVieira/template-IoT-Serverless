@@ -1,4 +1,7 @@
-# iotagent-ocpp
+# iotagent-serverless
+``` sh
+ sudo docker-compose up
+```
 
 # network-dojot
 
