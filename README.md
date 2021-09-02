@@ -4,7 +4,7 @@
 
  No docker-compose.yml cole seguinte codígo:
 ``` sh
-	networks:
+networks:
   default:
     external:
       name: dojot_default
