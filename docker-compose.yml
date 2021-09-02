@@ -1,0 +1,17 @@
+version: '2.1'
+services:
+       
+ iotagent-server:
+   build: .
+   ports:
+     - 3550:3550
+   restart: always
+   volumes:
+     - ./src/:/dojot/nodejs/src/
+   environment:
+     DOJOT_SERVICE_MANAGEMENT: 'internal'
+     SERVER_PORT: 3550
+   logging:
+     driver: json-file
+     options:
+       max-size: 100m

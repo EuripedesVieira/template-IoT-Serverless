@@ -1,0 +1,202 @@
+[    
+  {
+    "label":"BootNotification",
+    "attrs":[
+      {
+        "label": "bootNotificationReq",
+        "type": "dynamic",
+        "value_type": "object"
+      },
+      {
+        "label": "bootNotificationConf",
+        "type": "actuator",
+        "value_type": "object"
+      }
+    ]
+  },
+  
+  {
+    "label":"Authorize",
+    "attrs":[
+      {
+        "label": "authorizeReq",
+        "type": "dynamic",
+        "value_type": "object"
+      },
+      {
+        "label": "authorizeConf",
+        "type": "actuator",
+        "value_type": "object"
+      }
+    ]
+  },  
+  {
+    "label":"StartTransaction",
+    "attrs":[
+      {
+        "label": "startTransactionReq",
+        "type": "dynamic",
+        "value_type": "object"
+      },
+      {
+        "label": "startTransactionConf",
+        "type": "actuator",
+        "value_type": "object"
+      }
+    ]
+  },  
+  {
+    "label":"StopTransaction",
+    "attrs":[
+      {
+        "label": "stopTransactionReq",
+        "type": "dynamic",
+        "value_type": "object"
+      },
+      {
+        "label": "stopTransactionConf",
+        "type": "actuator",
+        "value_type": "object"
+      }
+    ]
+  },  
+  {
+    "label":"StatusNotification",
+    "attrs":[
+      {
+        "label": "statusNotificationReq",
+        "type": "dynamic",
+        "value_type": "object"
+      },
+      {
+        "label": "statusNotificationConf",
+        "type": "actuator",
+        "value_type": "object"
+      }
+    ]
+  },  
+  {
+    "label":"Heartbeat",
+    "attrs":[
+      {
+        "label": "heartbeatReq",
+        "type": "dynamic",
+        "value_type": "object"
+      },
+      {
+        "label": "heartbeatConf",
+        "type": "actuator",
+        "value_type": "object"
+      }
+    ]
+  },
+  {
+    "label":"MeterValues",
+    "attrs":[
+      {
+        "label": "meterValuesReq",
+        "type": "dynamic",
+        "value_type": "object"
+      },
+      {
+        "label": "meterValuesConf",
+        "type": "actuator",
+        "value_type": "object"
+      }
+    ]
+  }
+
+
+  ,  
+  {
+    "label":"RemoteStartTransaction",
+    "attrs":[
+      {
+        "label": "remoteStartTransactionReq",
+        "type": "actuator",
+        "value_type": "object"
+      },
+      {
+        "label": "remoteStartTransactiontConf",
+        "type": "dynamic",
+        "value_type": "object"
+      }
+    ]
+  },  
+  {
+    "label":"RemoteStopTransaction",
+    "attrs":[
+      {
+        "label": "remoteStopTransactionReq",
+        "type": "actuator",
+        "value_type": "object"
+      },
+      {
+        "label": "remoteStopTransactionConf",
+        "type": "dynamic",
+        "value_type": "object"
+      }
+    ]
+  },  
+  {
+    "label":"GetConfiguration",
+    "attrs":[
+      {
+        "label": "getConfigurationReq",
+        "type": "actuator",
+        "value_type": "object"
+      },
+      {
+        "label": "getConfigurationConf",
+        "type": "dynamic",
+        "value_type": "object"
+      }
+    ]
+  },  
+  {
+    "label":"ChangeConfiguration",
+    "attrs":[
+      {
+        "label": "changeConfigurationReq",
+        "type": "actuator",
+        "value_type": "object"
+      },
+      {
+        "label": "changeConfigurationConf",
+        "type": "dynamic",
+        "value_type": "object"
+      }
+    ]
+  },
+  {
+    "label":"ClearCache",
+    "attrs":[
+      {
+        "label": "clearCacheReq",
+        "type": "actuator",
+        "value_type": "object"
+      },
+      {
+        "label": "clearCacheConf",
+        "type": "dynamic",
+        "value_type": "object"
+      }
+    ]
+  },
+  {
+    "label":"DataTransfer",
+    "attrs":[
+      {
+        "label": "dataTransferReq",
+        "type": "actuator",
+        "value_type": "object"
+      },
+      {
+        "label": "dataTransferConf",
+        "type": "dynamic",
+        "value_type": "object"
+      }
+    ]
+  }
+
+]

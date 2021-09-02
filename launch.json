@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Launch Program",
+            //"runtimeExecutable": "${workspaceFolder}/node_modules/nodemon/bin/nodemon.js",
+            //"env": {"LOG_LEVEL":"debug"},
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "localRoot": "${workspaceFolder}}",
+            "remoteRoot": "/dojot/nodejs",
+            "processId":27055
+            //"program": "${workspaceFolder}/src/indexJ.js",
+            //"console": "externalTerminal"
+        }
+    ]
+}
