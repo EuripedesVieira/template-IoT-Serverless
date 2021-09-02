@@ -1,6 +1,0 @@
-projectKey=dojot
-serverUrl=https://sonar.cpqd.com.br
-serverVersion=7.9.3.33349
-dashboardUrl=https://sonar.cpqd.com.br/dashboard?id=dojot
-ceTaskId=AXSSyt3XEcf8QTsKRkXc
-ceTaskUrl=https://sonar.cpqd.com.br/api/ce/task?id=AXSSyt3XEcf8QTsKRkXc
